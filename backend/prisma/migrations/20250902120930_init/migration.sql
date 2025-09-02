@@ -3,6 +3,7 @@ CREATE TABLE "public"."users" (
     "id" TEXT NOT NULL,
     "email" TEXT NOT NULL,
     "username" TEXT NOT NULL,
+    "fullName" TEXT NOT NULL,
     "password" TEXT NOT NULL,
     "avatar" TEXT,
     "isOnline" BOOLEAN NOT NULL DEFAULT false,
